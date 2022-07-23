@@ -17,6 +17,7 @@ HTML
             <div class="container">     
                 <div class="row">
                     <h2>Generar códigos QR con PHP</h2>
+                    <h2>Generar códigos QR con PHP</h2>
                 </div>
                 
                 <div class="col-md-3">
