@@ -7,5 +7,6 @@ if(isset($_POST) && !empty($_POST)) {
     echo '<img class="img-thumbnail" src="'.$codesDir.$codeFile.'" />';
 } else {
     header('location:./');
+    
 }
 ?>
