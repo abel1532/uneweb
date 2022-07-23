@@ -1,7 +1,11 @@
 <?php 
 
-echo "Holaaaaaa!!!!!!!!!";
+function saludo($nombre){
+    $saludo="Hola ".$nombre;
 
-echo ":D";
+    echo $saludo;
+}
+
+$jesica= saludo('Jesica');
 
 ?>
