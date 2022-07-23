@@ -3,9 +3,15 @@
 function saludo($nombre){
     $saludo="Hola ".$nombre;
 
-    echo $saludo;
+    echo $saludo."<br>";
 }
 
-$jesica= saludo('Jesica');
+
+
+$alumnos=array("Jesica","Armando","Sebastian","Jesus","Catherine","Ramses");
+
+foreach ($alumnos as $alumno) {
+    saludo($alumno);
+}
 
 ?>
