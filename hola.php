@@ -6,7 +6,8 @@ function saludo($nombre){
 
     echo $saludo.' ';
 }
-
+  saludo("Abelito");
+/*
 
 
 $alumnos=array("Jesica"=>"Alumna","Armando"=>"Alumno","Sebastian"=>"Alumno"
@@ -16,6 +17,6 @@ foreach ($alumnos as $alumno => $cargo) {
     saludo($cargo);
     echo "<b>".$alumno."!!</b>";
     echo "<br>";
-}
+}*/
 
 ?>
